@@ -41,7 +41,8 @@ It's created using Swift 3 and Xcode 8.2.1.
 ### Styling options
 `--html` Indicates that the font and colour is specified in the caption's HTML.
 
-`"--fontName= Helvetica Neue Light"` Specifies the font name. Not used if `--html`  is specified. 
+`"--fontName= Helvetica Neue Light"` Specifies the font name. Not used if `--html`  is specified.
+
 `--fontSize=50` Specifies the font size.  Not used if `--html`  is specified.
 
 `--textColor=#333333` Specifies the text colour.  Not used if `--html`  is specified.
@@ -49,10 +50,10 @@ It's created using Swift 3 and Xcode 8.2.1.
 ### Layout Options
 `--horizontalFrameMargin=50.0` Space to the left and right of the frame.
 
-`--horizontalTextMargin=50`
-Space to the left and right of the caption.
+`--horizontalTextMargin=50` Space to the left and right of the caption.
 
-`--captionTopMargin=40.0` Space above the caption 
+`--captionTopMargin=40.0` Space above the caption
+
 `--frameTopMargin=40.0` Space between the bottom of the caption and the top of the frame.
 
 ## HTML Support in the Caption
