@@ -8,7 +8,9 @@ FrameX uses the Facebook device frames as packaged by [frameit](https://github.c
 
 Typical usage:
 
-`framex ---screenshotPath=screenshots/en-12.9-1_Main.png --targetSize=2732x2048 "--frameName=Apple iPad Pro Space Gray" --caption="My Caption Here"`
+```
+framex ---screenshotPath=screenshots/en-12.9-1_Main.png --targetSize=2732x2048 "--frameName=Apple iPad Pro Space Gray" --caption="My Caption Here"
+```
 
 This will read the screenshot `en-12.9-1_Main.png` and stamp it onto the iPad Pro frame, with the caption "My Caption Here" at the top.  See the styling options below for control over the font and size.
 
@@ -60,7 +62,9 @@ If you want a single line of plain text, you don't need to use HTML. You can use
 
 If you want a more complex caption, you can embed the styling in the caption as HTML. For example:
 
-`--html "--caption=<span style='font-size: 26pt; font-family: Lato; color: green'><b>Plan</b> <span style='color: #333377'>a week's meals in 5 minutes!</span></span>" `
+```
+--html "--caption=<span style='font-size: 26pt; font-family: Lato; color: green'><b>Plan</b> <span style='color: #333377'>a week's meals in 5 minutes!</span></span>"
+```
 
 This caption would render as what you see in the example at the top of this document.
 
