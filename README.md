@@ -4,7 +4,7 @@ FrameX is a command-line tool that takes screenshot images and merges them with 
 
 ![Before and After Image](https://raw.githubusercontent.com/fdstevex/FrameX/master/Resources/framex-before-after.png "Before and After")
 
-FrameX uses the Facebook device frames as packaged by [frameit], meaning it expects to find them in `~/.frameit`. 
+FrameX uses the Facebook device frames as packaged by [frameit](https://github.com/fastlane/fastlane/tree/master/frameit), meaning it expects to find them in `~/.frameit`. 
 
 Typical usage:
 
