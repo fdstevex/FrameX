@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8496B59D1E14A86C0001BEA3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496B59C1E14A86C0001BEA3 /* main.swift */; };
+		8496B5A61E14A9540001BEA3 /* FacebookFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496B5A51E14A9540001BEA3 /* FacebookFrames.swift */; };
+		8496B5A81E153ABC0001BEA3 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496B5A71E153ABC0001BEA3 /* ColorUtil.swift */; };
+		849FB0A71E17DBBD00E1DE1C /* AttributedStringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FB0A61E17DBBD00E1DE1C /* AttributedStringUtil.swift */; };
+		849FB0A91E185A3400E1DE1C /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FB0A81E185A3400E1DE1C /* Framer.swift */; };
+		849FB0AB1E185AA400E1DE1C /* FrameParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FB0AA1E185AA400E1DE1C /* FrameParams.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8496B5971E14A86C0001BEA3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8496B5991E14A86C0001BEA3 /* framex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = framex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8496B59C1E14A86C0001BEA3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8496B5A51E14A9540001BEA3 /* FacebookFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookFrames.swift; sourceTree = "<group>"; };
+		8496B5A71E153ABC0001BEA3 /* ColorUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
+		849FB0A61E17DBBD00E1DE1C /* AttributedStringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringUtil.swift; sourceTree = "<group>"; };
+		849FB0A81E185A3400E1DE1C /* Framer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Framer.swift; sourceTree = "<group>"; };
+		849FB0AA1E185AA400E1DE1C /* FrameParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameParams.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8496B5961E14A86C0001BEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84597CB71E1A02A00028F553 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8496B59C1E14A86C0001BEA3 /* main.swift */,
+				8496B5A51E14A9540001BEA3 /* FacebookFrames.swift */,
+				8496B5A71E153ABC0001BEA3 /* ColorUtil.swift */,
+				849FB0A61E17DBBD00E1DE1C /* AttributedStringUtil.swift */,
+				849FB0A81E185A3400E1DE1C /* Framer.swift */,
+				849FB0AA1E185AA400E1DE1C /* FrameParams.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		84597CB81E1A02AC0028F553 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8496B5901E14A86C0001BEA3 = {
+			isa = PBXGroup;
+			children = (
+				8496B59B1E14A86C0001BEA3 /* FrameX */,
+				8496B59A1E14A86C0001BEA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8496B59A1E14A86C0001BEA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8496B5991E14A86C0001BEA3 /* framex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8496B59B1E14A86C0001BEA3 /* FrameX */ = {
+			isa = PBXGroup;
+			children = (
+				84597CB81E1A02AC0028F553 /* Resources */,
+				84597CB71E1A02A00028F553 /* Source */,
+			);
+			path = FrameX;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8496B5981E14A86C0001BEA3 /* FrameX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8496B5A01E14A86C0001BEA3 /* Build configuration list for PBXNativeTarget "FrameX" */;
+			buildPhases = (
+				8496B5951E14A86C0001BEA3 /* Sources */,
+				8496B5961E14A86C0001BEA3 /* Frameworks */,
+				8496B5971E14A86C0001BEA3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrameX;
+			productName = FrameX;
+			productReference = 8496B5991E14A86C0001BEA3 /* framex */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8496B5911E14A86C0001BEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Fall Day Software Inc.";
+				TargetAttributes = {
+					8496B5981E14A86C0001BEA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FN4Q2985YR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8496B5941E14A86C0001BEA3 /* Build configuration list for PBXProject "FrameX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8496B5901E14A86C0001BEA3;
+			productRefGroup = 8496B59A1E14A86C0001BEA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8496B5981E14A86C0001BEA3 /* FrameX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8496B5951E14A86C0001BEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496B59D1E14A86C0001BEA3 /* main.swift in Sources */,
+				849FB0A91E185A3400E1DE1C /* Framer.swift in Sources */,
+				8496B5A61E14A9540001BEA3 /* FacebookFrames.swift in Sources */,
+				849FB0AB1E185AA400E1DE1C /* FrameParams.swift in Sources */,
+				8496B5A81E153ABC0001BEA3 /* ColorUtil.swift in Sources */,
+				849FB0A71E17DBBD00E1DE1C /* AttributedStringUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8496B59E1E14A86C0001BEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8496B59F1E14A86C0001BEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8496B5A11E14A86C0001BEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FN4Q2985YR;
+				PRODUCT_NAME = framex;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8496B5A21E14A86C0001BEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FN4Q2985YR;
+				PRODUCT_NAME = framex;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8496B5941E14A86C0001BEA3 /* Build configuration list for PBXProject "FrameX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496B59E1E14A86C0001BEA3 /* Debug */,
+				8496B59F1E14A86C0001BEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8496B5A01E14A86C0001BEA3 /* Build configuration list for PBXNativeTarget "FrameX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8496B5A11E14A86C0001BEA3 /* Debug */,
+				8496B5A21E14A86C0001BEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8496B5911E14A86C0001BEA3 /* Project object */;
+}
