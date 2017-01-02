@@ -8,7 +8,7 @@ FrameX uses the Facebook device frames as packaged by [frameit](https://github.c
 
 Typical usage:
 
-'' framex ---screenshotPath=screenshots/en-12.9-1_Main.png --targetSize=2732x2048 "--frameName=Apple iPad Pro Space Gray" --caption="My Caption Here"
+`framex ---screenshotPath=screenshots/en-12.9-1_Main.png --targetSize=2732x2048 "--frameName=Apple iPad Pro Space Gray" --caption="My Caption Here"`
 
 This will read the screenshot `en-12.9-1_Main.png` and stamp it onto the iPad Pro frame, with the caption "My Caption Here" at the top.  See the styling options below for control over the font and size.
 
