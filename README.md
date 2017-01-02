@@ -2,7 +2,7 @@
 
 FrameX is a command-line tool that takes screenshot images and merges them with device frames, a caption and a background to create frames ready to upload to iTunes Connect.
 
-![Before and After Image](https://github.com/fdstevex/FrameX/raw/master/resources/framex-before-after.png "Before and After")
+![Before and After Image](https://raw.githubusercontent.com/fdstevex/FrameX/master/Resources/framex-before-after.png "Before and After")
 
 FrameX uses the Facebook device frames as packaged by [frameit], meaning it expects to find them in `~/.frameit`. 
 
