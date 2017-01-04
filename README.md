@@ -1,4 +1,4 @@
-#FrameX Github Description
+#FrameX
 
 FrameX is a command-line tool that takes screenshot images and merges them with device frames, a caption and a background to create frames ready to upload to iTunes Connect.
 
